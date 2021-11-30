@@ -3,6 +3,7 @@ using System.Collections;
 
 public class DoorTrigger : MonoBehaviour
 {
+	public Collider2D doorCollider;
 
 	public DoorScript door;
 
@@ -50,9 +51,15 @@ public class DoorTrigger : MonoBehaviour
 	public void Toggle(bool state)
 	{
 		if (state)
+		{
+
 			door.DoorOpen();
+			
+		}
 		else
 			door.DoorClose();
+		doorCollider.enabled = !state;
+
 	}
 
 
