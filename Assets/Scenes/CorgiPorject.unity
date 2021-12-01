@@ -1366,7 +1366,7 @@ MonoBehaviour:
   hanging: 0
   anim: {fileID: 1670188518}
   rb: {fileID: 1670188516}
-  BaseSpeed: 0
+  BaseSpeed: 5
   grounded: 0
   point1: {fileID: 2062528333}
   point2: {fileID: 759674243}
