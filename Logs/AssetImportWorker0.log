@@ -1,0 +1,198 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16238 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Users\dante\OneDrive\Desktop\2020.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/dante/Downloads/rigidbody-fps-controller-tutorial-main (2)/CorgiProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51517
+Successfully changed project path to: C:/Users/dante/Downloads/rigidbody-fps-controller-tutorial-main (2)/CorgiProject
+C:/Users/dante/Downloads/rigidbody-fps-controller-tutorial-main (2)/CorgiProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 118.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path C:/Users/dante/OneDrive/Desktop/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/dante/Downloads/rigidbody-fps-controller-tutorial-main (2)/CorgiProject/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   
+    VRAM:     4021 MB
+    Driver:   26.21.14.4187
+Initialize mono
+Mono path[0] = 'C:/Users/dante/OneDrive/Desktop/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/dante/OneDrive/Desktop/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/dante/OneDrive/Desktop/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/dante/OneDrive/Desktop/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Users/dante/OneDrive/Desktop/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003285 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 121.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.322 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3322ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1211ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (444ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (483ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (122ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007848 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 119.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.249 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3252ms)
+		BeginReloadAssembly (337ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (2725ms)
+			LoadAssemblies (206ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (858ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (162ms)
+			SetupLoadedEditorAssemblies (1120ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (212ms)
+				ProcessInitializeOnLoadAttributes (718ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.5 MB.
+System memory in use after: 94.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2555.
+Total: 4.430500 ms (FindLiveObjects: 0.267200 ms CreateObjectMapping: 0.093700 ms MarkObjects: 3.952900 ms  DeleteObjects: 0.113700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Box (1).prefab
+  artifactKey: Guid(90122753853f97c45814c91a1350c51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Box (1).prefab using Guid(90122753853f97c45814c91a1350c51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a17ce049995923fe3463ecf37ce2f2') in 0.189116 seconds 
+  Import took 0.199306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.455857 seconds.
+  path: Assets/Prefabs/BigBox.prefab
+  artifactKey: Guid(90122753853f97c45814c91a1350c51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BigBox.prefab using Guid(90122753853f97c45814c91a1350c51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a76a1c9c04ac1c9d4f6d74c9f3ae50') in 0.013644 seconds 
+  Import took 0.020104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.317477 seconds.
+  path: Assets/Prefabs/Box.prefab
+  artifactKey: Guid(36d8f1cc2a2c14b47b597ec2166236ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Box.prefab using Guid(36d8f1cc2a2c14b47b597ec2166236ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831f24b15a44045dbb4f588ec86794ac') in 0.016804 seconds 
+  Import took 0.021196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.117659 seconds.
+  path: Assets/Prefabs/Door.prefab
+  artifactKey: Guid(2004543e83f94204ea8af3ac2bc3a4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Door.prefab using Guid(2004543e83f94204ea8af3ac2bc3a4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35fd866d01a03d2368edba313104d7a') in 0.030957 seconds 
+  Import took 0.038744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.984739 seconds.
+  path: Assets/Prefabs/Duck(Button).prefab
+  artifactKey: Guid(589beb77f9b3d5741a3b4a307213d54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Duck(Button).prefab using Guid(589beb77f9b3d5741a3b4a307213d54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0671197dbedc0dafe538809993a51246') in 0.022769 seconds 
+  Import took 0.030241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 258.132743 seconds.
+  path: Assets/Props/Trampoline.png
+  artifactKey: Guid(832a1d6354c30be4f863c102888c5d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Trampoline.png using Guid(832a1d6354c30be4f863c102888c5d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb60296cbd7d432c69f9879bef75acf') in 0.058918 seconds 
+  Import took 0.065185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.951555 seconds.
+  path: Assets/Props/Trampoline.png
+  artifactKey: Guid(832a1d6354c30be4f863c102888c5d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Trampoline.png using Guid(832a1d6354c30be4f863c102888c5d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b500da646cc0bf18a77123874fdc6a64') in 0.006890 seconds 
+  Import took 0.011033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.131076 seconds.
+  path: Assets/Props/Trampoline.png
+  artifactKey: Guid(832a1d6354c30be4f863c102888c5d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Trampoline.png using Guid(832a1d6354c30be4f863c102888c5d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d1d6ddfb97ad9c8ce4c3ed9891651a') in 0.049739 seconds 
+  Import took 0.057319 seconds .
+
