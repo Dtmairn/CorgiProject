@@ -1094,7 +1094,7 @@ MonoBehaviour:
   - {fileID: 1668799413}
   - {fileID: 1657365798}
   - {fileID: 662797598}
-  speed: 0.5
+  speed: 0.2
   projectile: {fileID: 428792270}
   holes:
   - {fileID: 898184743}
@@ -1103,6 +1103,7 @@ MonoBehaviour:
   explosion: {fileID: 0}
   sprites:
   - {fileID: 5858618242689515237, guid: b9b9312bb3e6c9c4096b86017af2e052, type: 3}
+  - {fileID: -7681238472768879189, guid: b9b9312bb3e6c9c4096b86017af2e052, type: 3}
 --- !u!50 &1273612122
 Rigidbody2D:
   serializedVersion: 4
@@ -1447,7 +1448,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1670188515}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 35.6, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 29120998}
