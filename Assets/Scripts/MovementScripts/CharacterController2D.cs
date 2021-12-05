@@ -2,8 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
+
+
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(CapsuleCollider2D))]
+
+
+
 
 public class CharacterController2D : MonoBehaviour
 {
@@ -12,6 +19,8 @@ public class CharacterController2D : MonoBehaviour
     public float jumpHeight = 6.5f;
     public float gravityScale = 1.5f;
     public Camera mainCamera;
+    public Transform keyFollowPlayer;
+
 
     bool facingRight = true;
     float moveDirection = 0;

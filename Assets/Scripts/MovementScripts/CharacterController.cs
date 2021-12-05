@@ -2,9 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
+
+
 public class CharacterController : MonoBehaviour
 {
 
+
+	public Transform keyFollowPoint;
+	public Key followingKey;
 	float dirX;
 	[SerializeField]
 	float moveSpeed = 5f;

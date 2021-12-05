@@ -8,11 +8,12 @@ TagManager:
   - Grabbable
   - grabbable
   - deadly
+  - Platform
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Platform
   - Water
   - UI
   - Ground
