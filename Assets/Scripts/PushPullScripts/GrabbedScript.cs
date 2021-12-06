@@ -21,7 +21,7 @@ public class GrabbedScript : MonoBehaviour
 	void Update()
 	{
 
-		if (Input.GetKeyDown(KeyCode.B))
+		if (Input.GetKeyDown(KeyCode.W))
 		{
 
 			if (!grabbed)
