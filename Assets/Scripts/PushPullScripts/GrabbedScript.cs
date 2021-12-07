@@ -36,14 +36,16 @@ public class GrabbedScript : MonoBehaviour
 
 				}
 
-
-				//grab
 			}
+				//grab
+			
+
+		
 			else if (!Physics2D.OverlapPoint(holdpoint.position, notgrabbed))
 			{
 				grabbed = false;
 
-				if (hit.collider.gameObject.GetComponent<Rigidbody2D>() != null)
+				if (hit.collider.gameObject.GetComponent<Rigidbody2D>() != null) 
 				{
 
 					hit.collider.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(transform.localScale.x, 1) * throwforce;
