@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: 77e9deda3249d0d4abb850db286aa84d
+  - enabled: 1
     path: Assets/Scenes/CorgiPorject.unity
     guid: 4fe08f6d82dfabd418cce19909d246da
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 1f5f582ce1c1bd74898c1fbdda75e0b4
   m_configObjects: {}

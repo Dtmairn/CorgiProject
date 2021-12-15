@@ -652,6 +652,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36d8f1cc2a2c14b47b597ec2166236ce, type: 3}
+--- !u!1 &844114144 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8742753669998054300, guid: 17a340ba6cbb8ff469c050766db879b2, type: 3}
+  m_PrefabInstance: {fileID: 8742753669435819647}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &873950344
 GameObject:
   m_ObjectHideFlags: 0
@@ -13869,6 +13874,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90122753853f97c45814c91a1350c51a, type: 3}
+--- !u!1 &1898641823
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1898641824}
+  m_Layer: 0
+  m_Name: AllCheckpoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1898641824
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898641823}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.37, y: 0.72, z: -1.9786608}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1904977242
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14511,9 +14546,29 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 8742753669998054293, guid: 17a340ba6cbb8ff469c050766db879b2, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 844114144}
+    - target: {fileID: 8742753669998054293, guid: 17a340ba6cbb8ff469c050766db879b2, type: 3}
+      propertyPath: checkPoint
+      value: 
+      objectReference: {fileID: 1898641824}
+    - target: {fileID: 8742753669998054293, guid: 17a340ba6cbb8ff469c050766db879b2, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 1898641824}
+    - target: {fileID: 8742753669998054293, guid: 17a340ba6cbb8ff469c050766db879b2, type: 3}
+      propertyPath: checkPoint2
+      value: 
+      objectReference: {fileID: 1898641824}
+    - target: {fileID: 8742753669998054293, guid: 17a340ba6cbb8ff469c050766db879b2, type: 3}
       propertyPath: groundCheck
       value: 
       objectReference: {fileID: 1681283121}
+    - target: {fileID: 8742753669998054293, guid: 17a340ba6cbb8ff469c050766db879b2, type: 3}
+      propertyPath: minHeightForDeath
+      value: -10
+      objectReference: {fileID: 0}
     - target: {fileID: 8742753669998054295, guid: 17a340ba6cbb8ff469c050766db879b2, type: 3}
       propertyPath: m_RootOrder
       value: 8
