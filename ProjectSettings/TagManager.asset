@@ -9,6 +9,7 @@ TagManager:
   - grabbable
   - deadly
   - Platform
+  - OrangeBox
   layers:
   - Default
   - TransparentFX

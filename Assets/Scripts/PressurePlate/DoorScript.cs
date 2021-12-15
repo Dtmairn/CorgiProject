@@ -27,7 +27,7 @@ public class DoorScript : MonoBehaviour
 		anim.SetBool("Opens", false);
 	}
 
-	void CollEnable()
+    void CollEnable()
 	{
 		GetComponent<Collider2D>().enabled = true;
 	}

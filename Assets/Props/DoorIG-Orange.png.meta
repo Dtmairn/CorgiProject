@@ -1,49 +1,49 @@
 fileFormatVersion: 2
-guid: b9b9312bb3e6c9c4096b86017af2e052
+guid: 2a8330d21b4e72340a3938a2da5ca570
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5858618242689515237
-    second: DoorIG_0
+      213: 3585641192678558064
+    second: DoorIG-Orange_0
   - first:
-      213: -7681238472768879189
-    second: DoorIG_1
+      213: 175139923006806712
+    second: DoorIG-Orange_1
   - first:
-      213: 7055072063904981861
-    second: DoorIG_2
+      213: -3676925487702135630
+    second: DoorIG-Orange_2
   - first:
-      213: 1782384586602135353
-    second: DoorIG_3
+      213: -8517729531674486085
+    second: DoorIG-Orange_3
   - first:
-      213: -7030581230856300942
-    second: DoorIG_4
+      213: -126138377084095462
+    second: DoorIG-Orange_4
   - first:
-      213: -3840690097249511689
-    second: DoorIG_5
+      213: -8407892028901022565
+    second: DoorIG-Orange_5
   - first:
-      213: 545199174010655625
-    second: DoorIG_6
+      213: 1019617456239935427
+    second: DoorIG-Orange_6
   - first:
-      213: 852589798279831064
-    second: DoorIG_7
+      213: -872700972816991291
+    second: DoorIG-Orange_7
   - first:
-      213: 8651693286766893716
-    second: DoorIG_8
+      213: -375264450807146316
+    second: DoorIG-Orange_8
   - first:
-      213: -3391351083460036551
-    second: DoorIG_9
+      213: -5147024608527967939
+    second: DoorIG-Orange_9
   - first:
-      213: -7873557378446525173
-    second: DoorIG_10
+      213: -2705621780427272709
+    second: DoorIG-Orange_10
   - first:
-      213: -1948106950472397330
-    second: DoorIG_11
+      213: 7943175735930203206
+    second: DoorIG-Orange_11
   - first:
-      213: -6342537635162298541
-    second: DoorIG_12
+      213: 8342478592675975050
+    second: DoorIG-Orange_12
   - first:
-      213: 3821381938071844494
-    second: DoorIG_13
+      213: 4922536887000588212
+    second: DoorIG-Orange_13
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -74,7 +74,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -110,7 +110,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -122,7 +122,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -134,7 +134,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -145,7 +145,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DoorIG_0
+      name: DoorIG-Orange_0
       rect:
         serializedVersion: 2
         x: 3
@@ -159,14 +159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5eeb12e504efd4150800000000000000
-      internalID: 5858618242689515237
+      spriteID: 0790d9dcaa1c2c130800000000000000
+      internalID: 3585641192678558064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorIG_1
+      name: DoorIG-Orange_1
       rect:
         serializedVersion: 2
         x: 47
@@ -180,14 +180,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba50c835e42c66590800000000000000
-      internalID: -7681238472768879189
+      spriteID: 8ba5fc005d83e6200800000000000000
+      internalID: 175139923006806712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorIG_2
+      name: DoorIG-Orange_2
       rect:
         serializedVersion: 2
         x: 91
@@ -201,14 +201,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 563a6d9a9a6a8e160800000000000000
-      internalID: 7055072063904981861
+      spriteID: 2bc2fe700cfe8fcc0800000000000000
+      internalID: -3676925487702135630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorIG_3
+      name: DoorIG-Orange_3
       rect:
         serializedVersion: 2
         x: 135
@@ -222,14 +222,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93f3d89865d4cb810800000000000000
-      internalID: 1782384586602135353
+      spriteID: bba10bbae12fac980800000000000000
+      internalID: -8517729531674486085
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorIG_4
+      name: DoorIG-Orange_4
       rect:
         serializedVersion: 2
         x: 223
@@ -243,14 +243,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2761842ce9b5e6e90800000000000000
-      internalID: -7030581230856300942
+      spriteID: a14bb5970dddf3ef0800000000000000
+      internalID: -126138377084095462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorIG_5
+      name: DoorIG-Orange_5
       rect:
         serializedVersion: 2
         x: 267
@@ -264,14 +264,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f6151594b023bac0800000000000000
-      internalID: -3840690097249511689
+      spriteID: b9424832fba215b80800000000000000
+      internalID: -8407892028901022565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorIG_6
+      name: DoorIG-Orange_6
       rect:
         serializedVersion: 2
         x: 311
@@ -285,14 +285,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 983ddba92cfe09700800000000000000
-      internalID: 545199174010655625
+      spriteID: 3cff7fd9ca8662e00800000000000000
+      internalID: 1019617456239935427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorIG_7
+      name: DoorIG-Orange_7
       rect:
         serializedVersion: 2
         x: 3
@@ -306,14 +306,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81e579187e105db00800000000000000
-      internalID: 852589798279831064
+      spriteID: 5cbfa18c61b83e3f0800000000000000
+      internalID: -872700972816991291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorIG_8
+      name: DoorIG-Orange_8
       rect:
         serializedVersion: 2
         x: 47
@@ -327,14 +327,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49a5f57a43df01870800000000000000
-      internalID: 8651693286766893716
+      spriteID: 4b8dec068facacaf0800000000000000
+      internalID: -375264450807146316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorIG_9
+      name: DoorIG-Orange_9
       rect:
         serializedVersion: 2
         x: 91
@@ -348,14 +348,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9387ab168208fe0d0800000000000000
-      internalID: -3391351083460036551
+      spriteID: d391f7e73681298b0800000000000000
+      internalID: -5147024608527967939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorIG_10
+      name: DoorIG-Orange_10
       rect:
         serializedVersion: 2
         x: 179
@@ -369,14 +369,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0df90bb7418bb290800000000000000
-      internalID: -7873557378446525173
+      spriteID: bfd82116353b37ad0800000000000000
+      internalID: -2705621780427272709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorIG_11
+      name: DoorIG-Orange_11
       rect:
         serializedVersion: 2
         x: 223
@@ -390,14 +390,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eed8f90dc0fe6f4e0800000000000000
-      internalID: -1948106950472397330
+      spriteID: 64c2f904f34db3e60800000000000000
+      internalID: 7943175735930203206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorIG_12
+      name: DoorIG-Orange_12
       rect:
         serializedVersion: 2
         x: 267
@@ -411,14 +411,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 357ea9100a7caf7a0800000000000000
-      internalID: -6342537635162298541
+      spriteID: a8f80c6641076c370800000000000000
+      internalID: 8342478592675975050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorIG_13
+      name: DoorIG-Orange_13
       rect:
         serializedVersion: 2
         x: 311
@@ -432,8 +432,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e86bdd940a6480530800000000000000
-      internalID: 3821381938071844494
+      spriteID: 4bf5d6fc73d505440800000000000000
+      internalID: 4922536887000588212
       vertices: []
       indices: 
       edges: []

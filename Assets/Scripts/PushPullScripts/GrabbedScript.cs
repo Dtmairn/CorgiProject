@@ -34,9 +34,13 @@ public class GrabbedScript : MonoBehaviour
 				{
 					grabbed = true;
 
-				}
+				} else if (hit.collider != null && hit.collider.tag == "OrangeBox")
+                {
+                    grabbed = true;
 
-			}
+                }
+
+            }
 				//grab
 			
 

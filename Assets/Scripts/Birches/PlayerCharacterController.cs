@@ -15,6 +15,9 @@ public class PlayerCharacterController : MonoBehaviour
     float groundRadius = 0.2f;
     public LayerMask whatIsGround;
     public float jumpForce = 700f;
+    public Transform spawnPoint;//Add empty gameobject as spawnPoint
+    public float minHeightForDeath;
+    public GameObject player; //Add your player
 
 
     // Start is called before the first frame update
@@ -49,6 +52,11 @@ public class PlayerCharacterController : MonoBehaviour
         {
             anim.SetBool("Ground", false);
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce));
+        }
+
+        if (player.transform.position.y < minHeightForDeath)
+        {
+            player.transform.position = spawnPoint.position;
         }
     }
 
