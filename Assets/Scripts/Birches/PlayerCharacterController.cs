@@ -16,6 +16,8 @@ public class PlayerCharacterController : MonoBehaviour
     public LayerMask whatIsGround;
     public float jumpForce = 700f;
     public Transform spawnPoint;//Add empty gameobject as spawnPoint
+    public Transform checkPoint;//Add empty gameobject as checkPoint
+    public Transform checkPoint2;//Add empty gameobject as spawnPoint
     public float minHeightForDeath;
     public GameObject player; //Add your player
 
@@ -54,9 +56,18 @@ public class PlayerCharacterController : MonoBehaviour
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce));
         }
 
-        if (player.transform.position.y < minHeightForDeath)
+        if (player.transform.position.y < minHeightForDeath && player.transform.position.x < 50)
         {
             player.transform.position = spawnPoint.position;
+
+        }
+        else if (player.transform.position.y < minHeightForDeath && player.transform.position.x < 150)
+        {
+            player.transform.position = checkPoint.position;
+        }
+        else if (player.transform.position.y < minHeightForDeath && player.transform.position.x <300)
+        {
+            player.transform.position = checkPoint2.position;
         }
     }
 
